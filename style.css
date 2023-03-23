@@ -23,7 +23,7 @@ a:hover {
     top: 0;
     bottom: 0;
     width: 100%;
-    z-index: 100000;
+    z-index: 1000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
@@ -211,11 +211,6 @@ a:hover {
     border-color: rgba(0, 0, 0, .7);
 }
 
-.d-bloc .panel .divider-h span,
-.l-bloc .divider-h span {
-    border-color: rgba(0, 0, 0, .1);
-}
-
 .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
 .l-bloc .navbar a,
@@ -252,6 +247,11 @@ a:hover {
     color: rgba(0, 0, 0, 1);
 }
 
+.d-bloc .panel .divider-h span,
+.l-bloc .divider-h span {
+    border-color: rgba(0, 0, 0, .1);
+}
+
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
 }
@@ -281,10 +281,6 @@ a:hover {
 .row.row-no-gutters>[class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
-}
-
-#bloc-2-services p {
-    font-size: 11px;
 }
 
 .navbar {
@@ -657,7 +653,6 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
     color: #575757 !important;
 }
 
@@ -692,11 +687,6 @@ p {
     margin: auto auto auto auto;
 }
 
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
-}
-
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF !important;
@@ -704,6 +694,10 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 1.0em;
     font-weight: 700;
+}
+
+.main-heading {
+    margin-bottom: 40px;
 }
 
 .social {
@@ -727,10 +721,6 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #333333 !important;
 }
 
 h4 {
