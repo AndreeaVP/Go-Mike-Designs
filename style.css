@@ -710,7 +710,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333 !important;
+    color: #333333;
 }
 
 .med-width-whitespace {
@@ -719,10 +719,10 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h4 {
-    color: #F1F6FB !important;
+.introduction {
+    color: #F1F6FB;
     margin-top: 20px;
-    font-size: 27px !important;
+    font-size: 27px;
 }
 
 .icons {
@@ -798,7 +798,7 @@ h4 {
 }
 
 .tc-white {
-    color: #364577 !important;
+    color: #364577;
 }
 
 .btn-atomic-tangerine {
@@ -846,6 +846,29 @@ h4 {
 
 .bg-atlanta-20made-20sign-20orange {
     background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+}
+
+.portfolio-heading {
+    font-size: 35px;
+    color: #364577;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cards-heading {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #ed500d;
+}
+
+.cards-p {
+    font-size: 15px;
+    color: #364577;
+}
+
+.contact-me-heading {
+    color: white;
+    font-size: 25px;
 }
 
 @media (max-width: 1024px) {
