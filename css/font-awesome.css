@@ -70,8 +70,8 @@
 }
 
 .fa-border {
-    padding: .2em .25em .15em;
-    border: solid .08em #eee;
+    padding: .5em .25em .15em;
+    border: solid .3em #f3efed;
     border-radius: .1em
 }
 
@@ -122,6 +122,7 @@
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg)
     }
+
     100% {
         -webkit-transform: rotate(359deg);
         transform: rotate(359deg)
@@ -133,6 +134,7 @@
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg)
     }
+
     100% {
         -webkit-transform: rotate(359deg);
         transform: rotate(359deg)

@@ -653,7 +653,6 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    color: #575757 !important;
 }
 
 .container {
@@ -694,6 +693,7 @@ a {
 
 .main-heading {
     margin-bottom: 50px;
+    color: #364577;
 }
 
 .social {
@@ -761,20 +761,28 @@ h4 {
     font-size: 17px;
     font-weight: 700;
     text-transform: uppercase;
+    color: #FF6A2A;
 }
 
 .advertisement-icons-p {
     font-size: 15px;
+    color: #364577;
+}
+
+.review-container {
+    box-shadow: 0px 8px 10px #9b9b9b;
 }
 
 .review {
     font-style: italic;
     font-size: 15px;
     line-height: 1.7;
+    color: #252424;
 }
 
 .reviewer-details {
     font-size: 15px;
+    color: #252424;
 }
 
 .bgc-white {
