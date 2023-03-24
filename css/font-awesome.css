@@ -70,9 +70,8 @@
 }
 
 .fa-border {
-    padding: .5em .25em .15em;
-    border: solid .3em #f3efed;
-    border-radius: .1em
+    padding: 1.5em .25em .15em;
+    border-radius: 0.3em
 }
 
 .fa-pull-left {
