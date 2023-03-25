@@ -660,12 +660,24 @@ a {
     max-width: 1000px;
 }
 
+.banner-container {
+    padding-top: 50px;
+}
+
+.contact-me-banner {
+    height: 250px;
+}
+
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: white;
 }
 
 .hero-bloc-text-sub {
-    font-size: 36px;
+    font-size: 18px;
+    color: white;
 }
 
 .statement-bloc-text {
