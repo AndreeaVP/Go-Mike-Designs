@@ -640,6 +640,7 @@ a[data-lightbox]:hover img {
     padding: 0;
     color: rgba(0, 0, 0, .5);
     background: none;
+    color: red;
 }
 
 h1,
@@ -1097,6 +1098,8 @@ h3 {
 
     .voffset-lg {
         margin-top: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
     form {
@@ -1130,5 +1133,28 @@ h3 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    .main-heading {
+        font-size: 27px;
+        margin-bottom: 0;
+    }
+
+    .main-heading br {
+        display: none;
+    }
+
+    .bloc .container {
+        padding-top: 20px;
+    }
+
+    .portfolio-heading {
+        font-size: 27px;
+    }
+
+    .social-media-icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
 }
