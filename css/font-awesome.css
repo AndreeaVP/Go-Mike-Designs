@@ -12,6 +12,7 @@
 }
 
 .fa {
+    color: rgba(255, 255, 255, .6);
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;

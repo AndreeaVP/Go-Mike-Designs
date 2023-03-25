@@ -701,6 +701,10 @@ a {
     margin: auto auto auto auto;
 }
 
+.social-media-icons {
+    margin-bottom: 20px;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -869,6 +873,12 @@ h3 {
 .contact-me-heading {
     color: white;
     font-size: 25px;
+}
+
+.footer-heading {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 1024px) {
