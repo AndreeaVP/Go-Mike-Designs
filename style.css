@@ -28,7 +28,7 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
+    width: auto;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -479,7 +479,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px !important;
+    font-size: 25px !important;
 }
 
 .icon-lg {
@@ -968,7 +968,7 @@ a:hover {
 
 @media (max-width: 991px) {
     .container {
-        width: 100%;
+        width: 95%;
     }
 
     .b-parallax {
@@ -982,8 +982,8 @@ a:hover {
     }
 
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .bloc-group,
@@ -997,6 +997,10 @@ a:hover {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
+    }
+
+    .hero-bloc-text {
+        font-size: 25px;
     }
 }
 
@@ -1193,6 +1197,19 @@ a:hover {
 
     .bloc .container {
         padding-top: 20px;
+        width: 100%;
+    }
+
+    .contact-me-banner {
+        height: 200px;
+    }
+
+    .hero-bloc-text {
+        font-size: 25px;
+    }
+
+    .hero-bloc-text-sub {
+        font-size: 15px;
     }
 
     .portfolio-heading {
@@ -1203,5 +1220,9 @@ a:hover {
         display: flex;
         align-items: center;
         justify-content: space-around;
+    }
+
+    .footer-heading {
+        font-size: 15px;
     }
 }
