@@ -712,6 +712,7 @@ a {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    text-decoration: none;
 }
 
 .social-media-icons {
@@ -888,10 +889,44 @@ h3 {
     font-size: 25px;
 }
 
+.info {
+    padding-top: 50px;
+}
+
 .footer-heading {
     font-size: 17px;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    color: #364577;
+}
+
+.personal-details {
+    color: #364577;
+}
+
+.i {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+a:focus,
+a:hover {
+    color: white;
+}
+
+.width-block-icons {
+    width: 200px;
 }
 
 @media (max-width: 1024px) {
