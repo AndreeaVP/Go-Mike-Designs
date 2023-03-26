@@ -766,7 +766,7 @@ h3 {
 }
 
 .black-background {
-    background-color: rgba(35, 31, 32, 0.7);
+    background-color: rgb(0 0 0 / 80%);
     padding: 40px 40px 40px 40px;
 }
 
@@ -801,6 +801,26 @@ h3 {
 .reviewer-details {
     font-size: 15px;
     color: #252424;
+}
+
+.love-atlanta {
+    color: #FF6A2A;
+}
+
+.p-love-atlanta {
+    font-size: 17px;
+}
+
+.cta-heros {
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+.ready-block {
+    font-size: 20px;
+    color: rgb(0, 253, 93);
 }
 
 .bgc-white {
