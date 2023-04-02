@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-display: swap;
 }
 
 a,
@@ -298,7 +299,8 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    width: 215px;
+    height: 40px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -746,6 +748,7 @@ h3 {
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
+    cursor: pointer;
 }
 
 .white {
@@ -781,7 +784,8 @@ h3 {
     font-size: 17px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #FF6A2A;
+    color: #b63600;
+    cursor: pointer;
 }
 
 .advertisement-icons-p {
@@ -888,6 +892,11 @@ h3 {
     background-image: url("../img/atlanta%20made%20sign%20orange.jpg");
 }
 
+.profile-icon-size {
+    width: 104.4px;
+    height: 107.1px;
+}
+
 .portfolio-heading {
     font-size: 35px;
     color: #364577;
@@ -898,7 +907,7 @@ h3 {
 .cards-heading {
     margin-top: 0;
     margin-bottom: 10px;
-    color: #ed500d;
+    color: #b63600;
 }
 
 .cards-p {
@@ -1106,11 +1115,6 @@ a:hover {
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
-    }
-
-    .navbar-brand img {
-        max-height: 40px;
-        width: auto;
     }
 
     .nav-invert .navbar-header {
