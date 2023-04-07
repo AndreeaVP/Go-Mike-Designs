@@ -365,8 +365,8 @@ a:hover {
         position: absolute;
         top: 50%;
         right: 20px;
-        transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
+        transform: translate(0, -50%);
     }
 
     .nav>li .dropdown-menu a,
@@ -555,8 +555,8 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 a[data-lightbox]:hover img {
@@ -918,6 +918,7 @@ h3 {
 .contact-me-heading {
     color: white;
     font-size: 25px;
+    line-height: 1.5;
 }
 
 .info {
@@ -1066,9 +1067,9 @@ a:hover {
 
     .site-navigation {
         position: inherit;
-        transform: none;
         -webkit-transform: none;
         -ms-transform: none;
+        transform: none;
     }
 
     .nav>li {
