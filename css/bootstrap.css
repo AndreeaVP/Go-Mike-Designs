@@ -791,13 +791,6 @@ ul {
     border-radius: 4px
 }
 
-.btn.focus,
-.btn:focus,
-.btn:hover {
-    color: #333;
-    text-decoration: none
-}
-
 .btn-group-lg>.btn,
 .btn-lg {
     padding: 10px 16px;
