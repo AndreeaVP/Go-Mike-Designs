@@ -670,6 +670,10 @@ a {
     height: 250px;
 }
 
+.article-aspect-bottom {
+    margin-bottom: 20px;
+}
+
 .hero-bloc-text {
     font-size: 32px;
     margin-top: 0;
@@ -759,11 +763,8 @@ h3 {
     margin-bottom: 24px;
     width: 270px;
     height: 270px;
-}
-
-.portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .avatar {
@@ -1237,6 +1238,7 @@ a:hover {
 
     .portfolio-heading {
         font-size: 27px;
+        margin-bottom: 50px;
     }
 
     .social-media-icons {
