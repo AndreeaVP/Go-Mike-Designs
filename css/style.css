@@ -719,6 +719,7 @@ a {
     max-width: 400px;
     margin: auto auto auto auto;
     text-decoration: none;
+    color: #caced2;
 }
 
 .social-media-icons {
@@ -952,10 +953,6 @@ a:hover {
 a:focus,
 a:hover {
     color: white;
-}
-
-.width-block-icons {
-    width: 200px;
 }
 
 @media (max-width: 1024px) {
@@ -1222,10 +1219,6 @@ a:hover {
     .bloc .container {
         padding-top: 20px;
         width: 100%;
-    }
-
-    .contact-me-banner {
-        height: 200px;
     }
 
     .hero-bloc-text {
